@@ -41,7 +41,7 @@ input[type="submit"]:hover{
 
 header{
 	/*background-image: linear-gradient(rgb(223 96 107 / 18%), rgb(95 152 200 / 46%)), url(../img/skola.jpg);*/
-	background-image: linear-gradient(rgb(223 96 107 / 18%), rgb(95 152 200 / 46%)), url(../img/brodmoravice.jpg);
+	background-image: linear-gradient(rgb(223 96 107 / 18%), rgb(95 152 200 / 46%)), url(../img/brodmoravice.jpg), url(../img/brodmoravice_small.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
