@@ -55,7 +55,12 @@ header{
 	background-size: cover;
 }
 
-@supports (-webkit-overflow-scrolling: touch) { 	body *: { 		background-attachment: scroll; 	} }
+@supports (-webkit-overflow-scrolling: touch) { 	
+	header { 		background-attachment: scroll; 
+		-webkit-background-attachment: scroll;
+	
+	} 
+}
 
 
 .with-errors{
