@@ -20,6 +20,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1606b', end
 section.dark{
 	background-color: #F5F5F5;
 }
+section.colorfull{
+	background-color: #cdeff8;
+}
+
+#contact {
+	background-image: linear-gradient(rgb(223 96 107 / 18%), rgb(95 152 200 / 46%)), url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 
 input[type="submit"]{
 	background: #e1606b;
@@ -30,7 +40,11 @@ input[type="submit"]:hover{
 }
 
 header{
-	background: url(../img/bg.jpg) no-repeat center center fixed;
+	background-image: linear-gradient(rgb(223 96 107 / 18%), rgb(95 152 200 / 46%)), url(../img/skola.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -255,12 +269,19 @@ div.slick-slide > img {
   background-color: black;
 }
 
+.scroll-down {
+	border-bottom: 8px solid #fff;
+	border-right: 8px solid #fff;
+		width: 25px;
+	height: 25px;
+}
+
 
 /* Custom Arrow */
 .prev {
   color: #999;
   position: absolute;
-  top: 38%;
+  top: 60%;
   left: -2em;
   font-size: 1.5em;
 }
@@ -272,7 +293,7 @@ div.slick-slide > img {
 .next {
   color: #999;
   position: absolute;
-  top: 38%;
+  top: 60%;
   right: -2em;
   font-size: 1.5em;
 }
@@ -284,6 +305,7 @@ div.slick-slide > img {
 
 @media screen and (max-width: 768px) {
   .next {
+  	display: none !important;
   }
 }
 
